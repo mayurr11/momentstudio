@@ -99,6 +99,38 @@ img {
   height: auto;
 }
 
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.social-icons i {
+  margin-right: 5px;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.instagram:hover {
+  color: #E4405F;
+}
+
+.youtube:hover {
+  color: #FF0000;
+}
+
+.whatsapp:hover {
+  color: #25D366;
+}
+
 .footer-logo img {
   max-width: 90px;
 }

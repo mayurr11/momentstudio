@@ -74,8 +74,9 @@
             items: 6,
             loop: true,
             autoplay: true,
-            smartSpeed: 1000,
-            autoplayTimeout: 3000,
+            smartSpeed: 800,
+            autoplayTimeout: 1000,
+            slideTransition: 'linear',
             responsive: {
                 0: {
                     items: 2
