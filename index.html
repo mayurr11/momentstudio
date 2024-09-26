@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Font Awesome icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -45,6 +47,14 @@
             </div>
         </div>
     </div> -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close" id="closePopup">&times;</span>
+            <img src="img/bg-img/thanganat.png" height="20px" alt="Popup Image">
+            <!-- <p>Price</p> -->
+        </div>
+    </div>
+
 
     <!-- Header Area Start -->
     <header class="header-area">
@@ -110,8 +120,21 @@
     <!-- Welcome Area Start -->
     <section class="welcome-area">
         <div class="welcome-slides owl-carousel">
+
             <!-- Single Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
+            <div class="single-welcome-slide bg-img bg-overlay" id="welcome-slide">
+                <div class="container h-100">
+                    <div class="row h-100 justify-content-center align-items-center">
+                        <div class="hero-btn-group button-grp" data-animation="bounceInDown" data-delay="20ms">
+                            <a href="#pricing" class="btn alime-btn mb-3 mb-sm-0 mr-4">View Pricing</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Single Slide -->
+            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/slide1.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <!-- Welcome Text -->
@@ -134,30 +157,9 @@
                 </div>
             </div>
 
-            <!-- Single Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
-                <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <!-- Welcome Text -->
-                        <div class="col-12 col-lg-8 col-xl-6">
-                            <div class="welcome-text">
-                                <h2 data-animation="bounceInDown" data-delay="50ms">Discover <br>Moment Studio</h2>
-                                <p data-animation="bounceInDown" data-delay="20ms">At Moment Studio, we capture life's
-                                    raw and authentic moments with a spontaneous and natural style, creating images that
-                                    evoke emotion and lasting memories.
-                                </p>
 
-                                <div class="hero-btn-group" data-animation="bounceInDown" data-delay="20ms">
-                                    <a href="/about" class="btn alime-btn mb-3 mb-sm-0 mr-4">About Us</a>
-                                    <a class="hero-mail-contact"
-                                        href="mailto:momentstudioo11@gmail.com">momentstudioo11@gmail.com</a>
-                                </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
         </div>
     </section>
     <!-- Welcome Area End -->
@@ -329,7 +331,8 @@
                             <a href="https://www.youtube.com/@Momentstudio11" target="_blank" class="youtube">
                                 <i class="fa-brands fa-youtube"></i> YouTube
                             </a>
-                            <a href="https://wa.me/+918140236171?text=Hello%20Moment%20Studio" target="_blank" class="whatsapp">
+                            <a href="https://wa.me/+918140236171?text=Hello%20Moment%20Studio" target="_blank"
+                                class="whatsapp">
                                 <i class="fa-brands fa-whatsapp"></i> WhatsApp
                             </a>
                         </div>
@@ -409,36 +412,37 @@
         <div class="container">
             <div class="row flex align-items-center justify-content-center">
                 <!-- <div class="col-12"> -->
-                    <div class="footer-content d-flex align-items-center justify-content-between">
-                        <!-- Copywrite Text -->
-                        <div class="copywrite-text text-center">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;
-                                <script>document.write(new Date().getFullYear());</script> All rights reserved |
-                                Developed with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#"
-                                    target="_blank">Mayur Chuahan & Rahul Mehta</a>
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </div>
-                        <!-- Footer Logo -->
-                        <!-- <div class="footer-logo">
+                <div class="footer-content d-flex align-items-center justify-content-between">
+                    <!-- Copywrite Text -->
+                    <div class="copywrite-text text-center">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved |
+                            Developed with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#"
+                                target="_blank">Mayur Chuahan & Rahul Mehta</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                    <!-- Footer Logo -->
+                    <!-- <div class="footer-logo">
                             <a href="#"><img src="/img/core-img/logo.png" alt=""></a>
                         </div> -->
-                        <!-- Social Info -->
-                        <!-- <div class="social-info">
+                    <!-- Social Info -->
+                    <!-- <div class="social-info">
                             <a href="#"><i class="ti-facebook" aria-hidden="true"></i></a>
                             <a href="#"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
                             <a href="#"><i class="ti-linkedin" aria-hidden="true"></i></a>
                             <a href="#"><i class="ti-pinterest" aria-hidden="true"></i></a>
                         </div> -->
-                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </footer>
     <!-- Footer Area End -->
 
     <!-- **** All JS Files ***** -->
+    <script src="js/showpopup.js"></script>
     <!-- jQuery 2.2.4 -->
     <script src="js/jquery.min.js"></script>
     <!-- Popper -->
