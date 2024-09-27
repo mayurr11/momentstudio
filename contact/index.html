@@ -132,20 +132,21 @@
                 <h2 class="mb-30">Contact Form</h2>
 
                 <!-- Form -->
-                <form action="#" method="post">
+                <form id="contact-form">
+                    <input type="hidden" name="access_key" value="7234d77d-73bb-41be-8a5d-02ff68e98136"> <!-- Replace with your actual access key -->
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <input type="text" name="name" class="form-control mb-30" placeholder="Your Name">
+                            <input type="text" name="name" class="form-control mb-30" placeholder="Your Name" required>
                         </div>
                         <div class="col-12 col-md-6">
-                            <input type="email" name="email" class="form-control mb-30" placeholder="Email">
+                            <input type="email" name="email" class="form-control mb-30" placeholder="Email" required>
                         </div>
                         <div class="col-12">
-                            <textarea name="message" class="form-control mb-30" placeholder="Messages"></textarea>
+                            <textarea name="message" class="form-control mb-30" placeholder="Messages" required></textarea>
                         </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn alime-btn btn-2 mt-15">Send Messages</button>
-                        </div>
+                        <!-- <div class="col-12"> -->
+                            <button type="submit" class="btn alime-btn btn-2 mt-15" id="submit">Send Messages</button>
+                        <!-- </div> -->
                     </div>
                 </form>
             </div>
@@ -304,6 +305,9 @@
     <script src="/js/alime.bundle.js"></script>
     <!-- Active -->
     <script src="/js/default-assets/active.js"></script>
+
+    <!-- form -->
+    <script src="/js/contactform.js"></script>
 
 </body>
 
