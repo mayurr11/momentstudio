@@ -101,7 +101,7 @@ Last Update: Feb 22, 2019
 
 /* Default background for laptop/desktop */
 #welcome-slide {
-  background-image: url('img/bg-img/thanganat.PNG');
+  background-image: url('img/bg-img/thanganat.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -130,7 +130,7 @@ Last Update: Feb 22, 2019
 /* Change background for mobile view */
 @media only screen and (max-width: 767px) {
   #welcome-slide {
-      background-image: url('img/bg-img/thanganat.PNG');
+      background-image: url('img/bg-img/thanganat.jpg');
   }
 }
 
