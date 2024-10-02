@@ -1,14 +1,7 @@
-/* ------------------------------------------
-[Master Stylesheet]
-
-Template Name: Alime - Photography HTML Template
-Template Author: Colorlib
-Template Author URL: http://colorlib.com
-Version: 1.0.0
-Last Update: Feb 22, 2019
 
 
-[Tables of CSS Content]
+
+/* [Tables of CSS Content]
 
 + body
 
@@ -27,9 +20,9 @@ Last Update: Feb 22, 2019
     - 13.0 Blog CSS
     - 14.0 Team CSS
     - 15.0 Gallery CSS
-    - 16.0 Contact CSS
+    - 16.0 Contact CSS */
 
---------------------------------------------- */
+/* --------------------------------------------- */
 /* Import Fonts & All CSS */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700");
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');

@@ -19,12 +19,6 @@
     }
 }());
 
-// **********************************************
-// ** Classy Nav - 1.1.0
-// ** Responsive Megamenu Plugins
-// ** Copyright (c) 2019 Designing World
-// **********************************************
-
 (function ($) {
     $.fn.classyNav = function (options) {
 

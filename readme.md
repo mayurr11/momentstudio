@@ -72,11 +72,4 @@ movement-studio/
 
 ```
 
-## Starting the Project
-
-To start using Gulp, run:
-
-```bash
-npm run start
-```
 ## Developed By Mayur Chauhan
